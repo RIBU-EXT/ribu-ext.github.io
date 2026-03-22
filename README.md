@@ -1,5 +1,5 @@
 
-# RIBU![Untitled_Artwork](https://github.com/user-attachments/assets/9f8d0659-28fd-4d59-abe1-c79071206f48)
+![Untitled_Artwork (1)](https://github.com/user-attachments/assets/d293dc89-583b-4917-8246-21b7de8f4744)
 
 RIBU is a file name extension. RIBU stands for Read Instructions Before Use.   This tells the user to read the instructions (e.g. README, PDF, manual, etc.) before opening up the main file. 
 
