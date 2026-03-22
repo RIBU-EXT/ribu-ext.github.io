@@ -1,6 +1,5 @@
-![Untitled_Artwork (2)](https://github.com/user-attachments/assets/23ece289-217e-4ba0-8082-13685042711b)
+![combined](https://github.com/user-attachments/assets/73786d54-fa09-4c08-9886-ccb2452b3817
 
-![RIBU Website 2](https://github.com/user-attachments/assets/ac1226c2-cf4f-405a-8670-1d05cf96ff7c)
 <script async src="https://eomail5.com/form/0bedbdda-25ce-11f1-9a1d-cfbafc18bbf6.js" data-form="0bedbdda-25ce-11f1-9a1d-cfbafc18bbf6"></script>
 
 [![Star History Chart](https://api.star-history.com/image?repos=MOG4125/RIBU&type=date&legend=top-left)](https://www.star-history.com/?repos=MOG4125%2FRIBU&type=date&legend=top-left 
