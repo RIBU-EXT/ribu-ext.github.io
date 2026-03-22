@@ -1,3 +1,4 @@
+![ribuicon](https://github.com/user-attachments/assets/f2bdab2e-cb7e-435a-812e-463a5c8e1687)
 # RIBU
 RIBU is a file name extension. RIBU stands for Read Instructions Before Use.   This tells the user to read the instructions (e.g. README, PDF, manual, etc.) before opening up the main file. 
 
