@@ -1,5 +1,0 @@
-site_name: RIBU-EXT Docs
-theme:
-  name: material
-nav:
-  - Home: index.md
