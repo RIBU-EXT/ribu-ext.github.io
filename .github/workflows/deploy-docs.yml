@@ -17,8 +17,15 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Install MkDocs
-        run: pip install mkdocs-material
+      - name: Install MkDocs and Theme
+        run: pip install mkdocs mkdocs-material
+
+      - name: Ensure Docs Exist
+        run: |
+          mkdir -p docs
+          if [ ! -f docs/index.md ]; then
+            echo "# Welcome" > docs/index.md
+          fi
 
       - name: Build Website
         run: mkdocs build
@@ -27,5 +34,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site  # MkDocs puts the finished site here
+          publish_dir: ./site
           destination_dir: docs
