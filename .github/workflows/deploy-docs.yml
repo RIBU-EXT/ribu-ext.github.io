@@ -1,0 +1,21 @@
+name: Deploy AI Docs Subfolder
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Create Redirect Page
+        run: |
+          mkdir -p ./docs
+          echo '<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0; url='\''https://docuwriter.ai'\''" /></head><body><p>Redirecting to <a href="https://docuwriter.ai">AI Docs</a>...</p></body></html>' > ./docs/index.html
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          destination_dir: docs
